@@ -1,3 +1,35 @@
 .button {
-    background: hotpink;
+    border: none;
+    height: 3rem;
+    width: 9rem;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 5px 0 #c5c5c5;
+    cursor: pointer;
+    font-family: Rubik, sans-serif;
+}
+
+.primary {
+    background: radial-gradient(circle, rgb(0, 89, 241) 0%, rgb(0, 76, 215) 100%);
+}
+
+.primary:hover {
+    background: radial-gradient(circle, rgb(35, 105, 232) 0%, rgb(20, 93, 231) 100%);
+}
+
+.warn {
+    background: radial-gradient(circle, rgb(241, 157, 0) 0%, rgb(215, 140, 0) 100%);
+}
+
+.warn:hover {
+    background: radial-gradient(circle, rgb(215, 147, 22) 0%, rgb(218, 146, 26) 100%);
+}
+
+.error {
+    background: radial-gradient(circle, rgb(241, 0, 20) 0%, rgb(215, 0, 25) 100%);
+}
+
+.error:hover {
+    background: radial-gradient(circle, rgb(215, 22, 28) 0%, rgb(218, 26, 32) 100%);
 }
